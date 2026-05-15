@@ -93,7 +93,7 @@ strongest class separations:
 - Feature importance was assessed through probability based visual analysis 
   rather than model coefficients or feature importance scores
 
-### Feature Importance (EDA-Based)
+### Feature Importance (EDA Based)
 Key metric: probability difference between classes for each feature, 
 assessed visually through bar charts and KDE plots.
 
@@ -110,13 +110,13 @@ assessed visually through bar charts and KDE plots.
 ### Conclusions
 - `ca`, `cp`, and `thal` emerged as the strongest clinical indicators of 
   heart disease based on probability separation between classes
-- Exercise-related features (`oldpeak`, `thalach`, `exang`) showed clear 
+- Exercise related features (`oldpeak`, `thalach`, `exang`) showed clear 
   physiological differences between healthy and diseased patients, 
   suggesting exercise stress reveals meaningful cardiac signals
 - Fasting blood sugar (`fbs`) contributed very little discriminative 
   information and would likely be a weak predictor in any downstream model
 - Even with a small dataset of ~300 patients, the data shows strong 
-  structure and well-separated class distributions across several features
+  structure and well separated class distributions across several features
 
 ## How to Reproduce Results
 1. Install the required packages listed below
